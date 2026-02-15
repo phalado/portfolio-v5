@@ -59,7 +59,7 @@ const About = () => {
       <p className="text-xl text-white text-center max-w-3xl mb-10">
         At the end of the day, I'm just a guy from Juiz de Fora who believes great code is like a
         good conversation: clear, useful, and with room to improvise. If that resonates with you,
-        let's chat? My email is <u className="mx-1">phalado@gmail.com</u>, or hop over to{' '}
+        let's chat? My email is <u className="mx-1">phalado@gmail.com</u>, or hop over to
         <a
           href="https://www.linkedin.com/in/phalado"
           className="mx-1 underline"
@@ -67,7 +67,7 @@ const About = () => {
           rel="noopener noreferrer"
         >
           LinkedIn
-        </a>{' '}
+        </a>
         for a quick connect.
       </p>
     </div>

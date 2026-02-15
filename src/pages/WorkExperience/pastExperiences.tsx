@@ -1,0 +1,90 @@
+const pastExperiences = [
+  {
+    id: 0,
+    name: 'Sware',
+    period: '2025 - 2026',
+    website: 'https://swareco.com/',
+    title: 'Full-Stack Developer',
+    subTitle: '',
+    topics: [
+      'Implemented a scalable marketplace for candidates using React and TypeScript on the frontend with state management via Redux/Context API, integrated with Ruby on Rails backend models and controllers, resulting in fast query performance and efficient data handling for thousands of candidate records.',
+      'Owned the full SDLC for the dashboard feature, from ideation with Figma designs to coding components, setting up endpoints, and deployment, using PostgreSQL for database optimizations and Webhooks for real-time updates, which enabled seamless Kanban-like interactions and reduced manual refreshes.',
+      'Integrated third-party tools like Workable and Jobma for candidate data imports via RESTful APIs, employing Node.js for backend scripting and Jest/RSpec for testing, improving data accuracy and supporting business decisions by automating candidate sourcing processes.',
+      'Developed real-time communication between frontend and backend using Webhooks triggered on database changes in PostgreSQL, with frontend endpoints updating the DOM dynamically, enhancing application responsiveness and user engagement in a high-stakes recruitment environment.',
+      'Ensured code quality and scalability through comprehensive testing with Jest and RSpec, refactoring legacy elements, and deploying on cloud platforms like AWS, which minimized bugs and provided reliable performance, aiding in faster feature delivery and better support for client needs.',
+    ],
+  },
+  {
+    id: 1,
+    name: 'Jebbit',
+    period: '2023 - 2025',
+    website: 'https://www.jebbit.com/',
+    title: 'Integrations Engineer',
+    subTitle: '',
+    topics: [
+      'Collaborated closely with clients to seamlessly integrate their APIs with the platform, developing backend uploaders for automatic data delivery via scheduled emails and real-time integrations with minimal delay.',
+      'Developed responsive frontend components in React to enable real-time data visualization and user interactions, optimizing JavaScript logic with async/await for efficient data handling and event management.',
+      'Improved code quality by introducing new logging features to track bugs, then implemented a strategy to enhance reliability, reducing uploader failures from dozens per day to less than 5/week.',
+      'Implemented CSS3 and SCSS for intuitive UI layouts, applying mobile-first principles to ensure accessibility and responsivity across devices while maintaining robust backend data flows.',
+    ],
+  },
+  {
+    id: 2,
+    name: 'Hunt Club',
+    period: '2022',
+    website: 'https://www.huntclub.com/',
+    title: 'Sr Software Engineer',
+    subTitle: '',
+    topics: [
+      "Contributed to the candidates' search team by adding backend optimizations for filtering millions of candidates and implementing frontend search interfaces in React with JavaScript for dynamic filter logic, DOM manipulation, and event handling.",
+      'Worked on the frontend to capture user filters, send them to the backend, and present data pleasantly, applying UX/UI best practices including CSS/SCSS and Tailwind for responsive layouts, animations, and theming.',
+      'Implemented tracking points in both backend and frontend code to monitor efficiency, enabling product managers to improve user experience through data-driven refinements and reduced load times.',
+      "Developed new features for the company's Chrome extension, focusing on JavaScript-driven UI enhancements integrated with backend APIs for seamless functionality.",
+    ],
+  },
+  {
+    id: 3,
+    name: 'Cuseum',
+    period: '2022',
+    website: 'https://cuseum.com/',
+    title: 'Full-Stack Developer',
+    subTitle: '',
+    topics: [
+      'Implemented new backend features, created tests, and linked them to frontend views in React, emphasizing JavaScript for logic, event-driven interactions, and efficient data rendering.',
+      'Refactored legacy full-stack Ruby on Rails code using HTML5, CSS3/SCSS, and JavaScript/jQuery, improving overall quality, readability, test coverage, and user experience.',
+      'Designed user interfaces with a focus on accessibility and mobile-first approaches, enhancing application performance and intuitiveness through integrated full-stack improvements.',
+    ],
+  },
+  {
+    id: 4,
+    name: 'bycoders_',
+    period: '2020 - 2022',
+    website: 'https://www.bycoders.com.br/',
+    title: 'Full-Stack Developer',
+    subTitle:
+      'Working as a Full-Stack developer where I design and install creative solutions for the company’s clients. Some of my contributions:',
+    topics: [
+      'Designed and installed creative full-stack solutions for clients, including a backend office for administrative access in a web store with filtering, CRUD operations for users, stores, and products.',
+      'Developed responsive frontend interfaces in React for the back-office, using JavaScript for filter logic, DOM manipulation, and async data operations to manage data efficiently.',
+      'Integrated Mixpanel for data analytics, implementing backend efficiency without compromise and frontend CSS3/Bootstrap for friendly tables enhancing UI/UX.',
+      'Created scheduled notifications using Sidekiq scheduler on the backend, with JavaScript-driven frontend components for automated email previews and user interactions.',
+      'Refactored legacy Ruby on Rails code with HTML5, CSS/SCSS, JavaScript, and jQuery, optimizing layouts, animations, and responsivity while improving test coverage from around 50% to 95%.',
+      'Instructed at Bycoders Academy, mentoring on full-stack best practices including React, UI design, and backend integrations.',
+      'Contributed to a medium-sized microservices project, installing Kong as the Gateway and GraphQL for each service, while designing responsive frontend interfaces with Tailwind CSS.',
+    ],
+  },
+  {
+    id: 5,
+    name: 'Freelancer',
+    period: '2019 - 2020',
+    website: '',
+    title: 'Freelancer Full-Stack Developer',
+    subTitle: 'Some of my main projects as a freelancer',
+    topics: [
+      'Developed a class scheduler using Ruby on Rails as backend and React as frontend, implementing JavaScript for dynamic scheduling logic, event handling, and responsive UI with CSS3 for intuitive student interactions.',
+      'Created a back office using Ruby on Rails, for backend logic, with React frontend utilizing TypeScript and Redux for state management, and SCSS for themed layouts enabling administrative filtering and data management.',
+    ],
+  },
+];
+
+export default pastExperiences;
