@@ -39,6 +39,16 @@ const Layout = () => {
               Work Experience
             </Button>
           )}
+          {currentPath !== 'projects' && (
+            <Button
+              variant="link"
+              size="lg"
+              className="text-white my-2"
+              onClick={() => navigate('/projects')}
+            >
+              My Projects
+            </Button>
+          )}
           {currentPath !== 'articles' && (
             <Button
               variant="link"

@@ -12,6 +12,7 @@ const Articles = () => {
         <div className="flex flex-wrap w-full h-full justify-evenly items-center mb-6">
           {myArticles.map((article) => (
             <a
+              key={article.title}
               href={article.url}
               target="_blank"
               rel="noopener noreferrer"

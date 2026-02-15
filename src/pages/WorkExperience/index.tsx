@@ -1,6 +1,6 @@
-import megDebug from '@/assets/meg-debug.jpg';
-import pastExperiences from './pastExperiences';
 import { useState } from 'react';
+import pastExperiences from './pastExperiences';
+import megDebug from '@/assets/meg-debug.jpg';
 import { Button } from '@/components/ui/button';
 
 const WorkExperience = () => {
