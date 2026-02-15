@@ -24,13 +24,13 @@ const Header = () => {
           Transforming complex challenges into elegant and scalable solutions
         </p>
         <div className="flex gap-4 flex-wrap justify-center z-20">
-          <Button variant="secondary" size="lg">
+          <Button variant="secondary" size="lg" onClick={() => navigate('/about')}>
             About me
           </Button>
-          <Button variant="secondary" size="lg">
+          <Button variant="secondary" size="lg" onClick={() => navigate('/work-experience')}>
             Work Experience
           </Button>
-          <Button variant="secondary" size="lg">
+          <Button variant="secondary" size="lg" onClick={() => navigate('/articles')}>
             Articles
           </Button>
           <Button variant="secondary" size="lg" onClick={() => navigate('/contact')}>
