@@ -5,6 +5,7 @@ import Contact from '@/pages/Contact';
 import NotFound from '@/pages/NotFound';
 import Layout from '@/components/Layout';
 import Articles from '@/pages/Articles';
+import About from '@/pages/About';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route element={<Layout />}>
         <Route path="/contact" element={<Contact />} />
         <Route path="/articles" element={<Articles />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
