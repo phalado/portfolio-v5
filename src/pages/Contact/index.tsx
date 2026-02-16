@@ -23,7 +23,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/phalado"
+            href="https://www.linkedin.com/in/raphael-cordeiro"
             target="_blank"
             rel="noopener noreferrer"
             className="w-40 h-40 bg-blue-600 hover:bg-blue-700 rounded-lg p-4 flex flex-col items-center justify-evenly text-center text-white text-lg shadow-xl transition mb-4"
@@ -43,7 +43,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="mailto:phalado@example.com"
+            href="mailto:phalado.tech@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="w-40 h-40 bg-red-600 hover:bg-red-700 rounded-lg p-4 flex flex-col items-center justify-evenly text-center text-white text-lg shadow-xl transition mb-4"
